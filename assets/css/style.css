@@ -1,5 +1,5 @@
-@import url(quicksand.css);
-@import url(montserrat.css);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 @charset "UTF-8";
 /*
@@ -209,24 +209,24 @@ textarea {
 
 .bg-home,
 .bg-home nav:before {
-    background-color: #FFEB3B;
-    color: #252525;
+    background-color: #002fa7;
+    color: #ffffff;
 }
 
 .bg-home *:not(i):not(nav):after,
 .bg-home *:not(i):not(nav):before,
 .bg-home .btn:hover,
 .bg-home .btn-inverse{
-    background-color: #252525;
-    border-color: #252525;
-    color: #FFEB3B;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #002fa7;
 }
 
 /* Subscribe */
 
 .bg-subscribe,
 .bg-subscribe nav:before {
-    background-color: #252525;
+    background-color: #4c221b;
     color: #ffffff;
 }
 
@@ -236,7 +236,7 @@ textarea {
 .bg-subscribe .btn-inverse {
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #252525;
+    color: #4c221b;
 }
 
 /* About */
@@ -250,23 +250,25 @@ textarea {
 .bg-about *:not(i):not(nav):after,
 .bg-about *:not(i):not(nav):before {
     background-color: #ffffff;
+    border-color: #ffffff;
+    color: #F44336;
 }
 
 /* Contact */
 
 .bg-contact,
 .bg-contact nav:before {
-    background-color: #dedede;
-    color: #252525;
+    background-color: #003472;
+    color: #ffffff;
 }
 
 .bg-contact *:not(i):not(nav):after,
 .bg-contact *:not(i):not(nav):before,
 .bg-contact .btn:hover,
 .bg-contact .btn-inverse {
-    border-color: #252525;
-    background-color: #252525;
-    color: #dedede;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #003472;
 }
 
 .bg-contact input,
@@ -278,13 +280,15 @@ textarea {
 
 .bg-services,
 .bg-services nav:before {
-    background-color: #326394;
+    background-color: #0aa344;
     color: #ffffff;
 }
 
 .bg-services *:not(i):not(nav):after,
 .bg-services *:not(i):not(nav):before {
     background-color: #ffffff;
+    border-color: #ffffff;
+    color: #0aa344;
 }
 
 /*====================================================
